@@ -46,21 +46,7 @@ function land(element) {
 }
 
 
-/*function checkBottomRight(element){
-  let currentColor = element.style.backgroundColor
-  if ((parseInt(element.id)+1)%7===0 || element.id>=35){
-    console.log("invalid square");
-    return false;
-  }
-  let doll = document.getElementById(parseInt(element.id)+8)
-  let diagonalColor = doll.style.backgroundColor
-  if (currentColor === diagonalColor){
-    console.log("hello");
-    return true;
-  }
-    return false;
-}
-*/
+
 let winningArray = [
   [0, 1, 2, 3],
   [41, 40, 39, 38],
